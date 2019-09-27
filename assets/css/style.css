@@ -233,13 +233,97 @@ input[type=submit] {
   body {
     padding-top: 0;
   }
+  .auth-image {
+    width: 400px;
+  }
+  section p {
+    font-size: 30px;
+    word-spacing: 3px;
+    line-height: 1.5; 
+  }
+  nav {
+    font-size: 25px;
+  }
+  #logo {
+    font-size: 40px;
+    margin-left: 10px;
+    height: 120px;
+  }
+  h1 {
+    font-size: 43px;
+  }
+  .container {
+  height: 100px;
+  margin-bottom: 20px;
+  }
+  .main-section {
+    margin-top: 40px;
+  }
+
+}
+label {
+  font-size: x-large;
+}
+#name, #email {
+  font-size: 20px;
+  footer {
+    height: auto;
+  }
+  #contact-form ul {
+    list-style: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
   #masthead {
     position: static;
     margin: 0 10px 30px 0;
+    display: grid;
   }
+
+  .container {
+    display: grid;
+  }
+#logo {
+  width: 100%;
+  font-size: 45px;
+}
+
+nav {
+  font-size: 30px;
+}
+
+  .work {
+    float: left;
+    width: 100%;
+  }
+  h1 {
+    font-size: 45px;
+  }
+
+  .auth-image {
+width: 100%;
+float: none;
+  }
+
+  section p {
+    font-size: 30px;
+  }
+.main-section {
+  height: fit-content;
+}
+label {
+  font-size: xx-large;
+}
+#name, #email {
+  font-size: 20px;
+}
+#main-container {
+  padding-top: 0px;
+}
+#contact-form ul {
+  list-style: none;
+}
 
 }
 
