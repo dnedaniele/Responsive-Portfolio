@@ -224,6 +224,33 @@ input[type=submit] {
   body {
     padding-top: 0;
   }
+
+  section p {
+    font-size: 30px;
+    line-height: 1.8; 
+  }
+  nav {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+  #logo {
+    font-size: 40px;
+    margin-left: 10px;
+    height: 100px;
+  }
+  h1 {
+    font-size: 43px;
+  }
+
+  .auth-image {
+    width: 300px;
+  }
+  .main-section {
+    width: 80%;
+    margin: 0 0 40px 20px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
