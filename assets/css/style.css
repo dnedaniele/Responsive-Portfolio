@@ -253,7 +253,7 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
   #masthead {
     margin: 0 10px 30px 0;
   }
@@ -309,7 +309,7 @@ label {
   }
 
   .container {
-    display: grid;
+  display: grid
   }
 #logo {
   width: 100%;
@@ -318,6 +318,7 @@ label {
 
 nav {
   font-size: 30px;
+  float:none;
 }
 
   .work {
